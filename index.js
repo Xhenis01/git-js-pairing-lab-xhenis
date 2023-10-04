@@ -29,7 +29,7 @@ console.log(division(20,22))
 test
 */// test //
 
-const fiveToOneHundred = () => {
+/*const fiveToOneHundred = () => {
     for(let i = 5; i <= 100; i++){
         console.log(i);
     }
@@ -41,4 +41,12 @@ const multiplesOfThree = ()=>{
         console.log(i);
     }
 }
-    multiplesOfThree();
+    multiplesOfThree();*/
+
+    const multiplesOfThreeOrFive = () => {
+        for(let i= 3; i <= 100; i ++){
+            console.log(i)
+        }
+    }
+
+    multiplesOfThreeOrFive()
