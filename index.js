@@ -9,3 +9,9 @@ const subtract = (num1,num2)=> {
     return num1 - num2;
 }
 console.log(subtract(20,22));
+
+
+const times = (num1,num2)=> {
+    return num1 * num2;
+}
+console.log(times(20,22))
