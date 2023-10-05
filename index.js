@@ -55,3 +55,10 @@ const largest = (num1,num2,num3)=> {
     }
 }
    console.log(largest(41,108,86));
+    const multiplesOfThreeOrFive = () => {
+        for(let i= 3; i <= 100; i ++){
+            console.log(i)
+        }
+    }
+
+    multiplesOfThreeOrFive()
